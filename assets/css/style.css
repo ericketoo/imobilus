@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Aleo-bold';
+    src: url(/assets/font/Aleo-Bold.otf);
+}
+@font-face {
+    font-family: 'Aleo-regular';
+    src: url(/assets/font/Aleo-Regular.otf);
+}
+:root{
+    --color-1: #3E563E;
+    --color-2: #1F2F22;
+    --font-title: "Aleo-bold";
+    --font-text: "Aleo-regular";
+}
+
+header{
+    width: 100%;
+    width: 100%;
+}
+
+nav{
+    margin: 20px 110px 0px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1065px;
+    height: 100%;
+}
+.menu{
+    width: 875px;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav li{
+    color: var(--color-2);
+    list-style: none;
+    font-family: var(--font-title);
+    font-weight: 20px;
+}
+.botao-home{
+    padding: 10px 50px;
+    border-radius: 6px;
+    color: white;
+    background-color: var(--color-1);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-text);
+}
+nav p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.conectar{
+    margin: 70px 0px 0px 110px;
+    font-family: var(--font-title);
+    font-size: 20px;
+    color: var(--color-2)
+}
+.conectar button{
+    margin-top: 13px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: var(--font-title);
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: var(--color-1);
+}
+
+
+
+.cards-index{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-auto-rows: 170px;
+    font-family: var(--font-title);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
