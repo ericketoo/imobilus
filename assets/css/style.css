@@ -1,0 +1,444 @@
+/*confiung basa*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*confiung basa*/
+
+/*font usadas*/
+@font-face {
+    font-family: 'Aleo-bold';
+    src: url(/assets/font/Aleo-Bold.otf);
+}
+@font-face {
+    font-family: 'Aleo-regular';
+    src: url(/assets/font/Aleo-Regular.otf);
+}
+/*font usadas*/
+
+/*propriedades base con variavel*/
+:root{
+    --color-1: #3E563E;
+    --color-2: #091008;
+    --font-title: "Aleo-bold";
+    --font-text: "Aleo-regular";
+}
+/*propriedades base con variavel*/
+
+
+/*header da pagina */
+header{
+    width: 100%;
+    width: 100%;
+}
+
+nav{
+    margin: 25px 107px 0px 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    width: 875px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 25px;
+}
+nav li{
+    color: var(--color-2);
+    list-style: none;
+    font-family: var(--font-title);
+    font-size: 20px;
+}
+.botao-home{
+    padding: 10px 50px;
+    border-radius: 6px;
+    color: white;
+    background-color: var(--color-1);
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-text);
+    font-size: 20px;
+}
+nav p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-left: 107px;
+}
+
+.conectar{
+    margin: 70px 0px 0px 110px;
+    font-family: var(--font-title);
+    font-size: 28px;
+    color: var(--color-2)
+}
+.conectar button{
+    margin-top: 13px;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: var(--font-title);
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: var(--color-1);
+}
+/*header da pagina */
+
+/*cardes com a casa */
+.cards-index{
+    padding: 100px 0px 0px 107px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-auto-rows: 170px;
+    font-family: var(--font-title);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.casinha{
+    width: 100%;
+    height: 100%;
+    margin-top: -130px;
+}
+/*cardes com a casa */
+
+#quadrinhos{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 70px 0px 0px 50px;
+}
+
+/*bunner da exelencia ao trabalho */
+#exelencia{
+    margin-top: 80px;
+    width: 100%;
+    height: 335px;
+    background: #CED9DF;
+}
+#exelencia h1{
+    font-family: var(--font-title);
+    font-size: 36px;
+    padding: 28px 0px 20px 0px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+.dadinhos{
+    font-family: var(--font-text);
+    padding: 0px 90px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1100px;
+}
+.dadinhos h2{
+    font-size: 80px;
+    color: var(--color-1);
+}
+.dadinhos p{
+    font-size: 16px;
+
+}
+.dad{
+    width: 230px;
+    height: 170px;
+}
+.dad1{
+    width: 292px;
+    height: 170px;
+}
+/*bunner da exelencia ao trabalho */
+
+/*cardes que tem 4 com lupa e saco de dinheiro */
+#busca{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.cardsde4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 765px;
+    
+}
+.cards4{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    width: 310px;
+    height: 375px;
+    box-shadow: 5px 10px 10px 5px #EBEBEB;
+
+}
+.cards4 img{
+    padding-top: 43px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards4 h2{
+    padding: 15px;
+    text-align: center;
+    font-size: 32px;
+    font-family: var(--font-text);
+    color: var(--color-1);
+}
+.cards4 p{
+    padding: 0px 39px;
+    text-align:justify;
+    font-family: var(--font-text);
+    font-size: 15px;
+}
+/*cardes que tem 4 com lupa e saco de dinheiro */
+
+/*avaliação das pessoas */
+#cards-avaliações{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 1110px;
+    padding-top: 45px;
+}
+#avaliações h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-family: var(--font-title);
+    color: var(--color-1);
+    text-transform: uppercase;
+    
+
+}
+.balao{
+    width: 305px;
+    height: 180px;
+    background-color: var(--color-1);
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.balao::after{
+    z-index: -2;
+    content: "";
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    top: 145px;
+    left: 35px;
+    background-color: var(--color-1);
+    transform: rotate(45deg);
+}
+
+.balao p{
+    font-size: 13px;
+    text-align: justify;
+    padding: 43px 28px 110px 28px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-family: var(--font-text);
+}
+.star-name{
+    display: grid;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 16px;
+}
+.star-name p {
+    font-size: 18px;
+    font-family: var(--font-text);
+    color: var(--color-1);
+}
+.star-people{
+    display: flex;
+}
+.star-people .peoples{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: var(--color-1);
+    border: var(--color-1);
+}
+/*avaliação das pessoas */
+
+/*comprar ou ver imoveis */
+
+.grupo1-casa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1077px;
+    margin-top: 140px;
+}
+.grupo2-casa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1077px;
+    margin-top: 60px;
+}
+#cardcompra-casa{
+    width: 470px;
+    height: 274px;
+    border-radius: 6px;
+    box-shadow: 4px 8px 8px 4px #EBEBEB;
+    background-color: white;
+    display: flex;
+}
+.iteinslados{
+    padding: 18px;
+    width: 195px;
+    height: 220px;
+}
+.iteinslados p{
+    font-size: 12px;
+    font-family: var(--font-text);
+}
+.idcasa{
+    margin-top: 2px
+}
+.iteinslados h2{
+    font-size: 28px;
+    color: var(--color-1);
+    margin: -5px 0px;
+    font-family: var(--font-title);
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+
+.cama{
+    color: var(--color-1);
+    display: flex;
+    padding-left: 8px;
+    padding-top: 17px;
+}
+.cama p{
+    font-size: 15px;
+    font-family: var(--font-title);
+    font-weight: bolder;
+    padding-left: 8px;
+    color: var(--color-1);
+}
+
+.botoes-card-casa{
+    padding-top: 5px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.botoes-card-casa button{
+    font-size: 15px;
+    font-family: var(--font-text);
+}
+.view-card-casa{
+    outline: none;
+    background-color: transparent;
+    border: 2px 2px 2px 2px #3E563E;
+    border-color: #3E563E;
+    border-radius: 6px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.buy-card-casa{
+    outline: none;
+    background-color: var(--color-1);
+    border-color: transparent;
+    border-radius: 6px;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+}
+/*comprar ou ver imoveis */
+
+
+footer{
+    width: 100%;
+    height: 420px;
+    background-color: var(--color-2);
+    color: white;
+}
+.divisaofooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 110px 61px 102px;
+}
+.logo{
+    padding-top: 60px;
+    width: 202px;
+    height: 226px;
+}
+footer span{
+    font-size: 64px;
+}
+footer h1{
+    font-family: sans-serif;
+    font-size: 32px;
+}
+footer p{
+    font-family: var(--font-text);
+    font-size: 16px;
+}
+
+.company{
+    padding-top: 60px;
+    width: 202px;
+    height: 216px;
+}
+.company p{
+    padding-bottom: 25px;
+}
+.company h1{
+    padding-bottom: 30px;
+}
+.links{
+    padding-top: 90px;
+    width: 198px;
+    height: 237px;
+}
+.links p{
+    padding-bottom: 25px;
+}
+.links h1{
+    padding-bottom: 30px;
+}
+
+.links2 {
+    padding-top: 110px;
+    width: 233px;
+    text-align: end;
+}
+.links2 p{
+    padding-bottom: 30px;
+}
+.links2 h1{
+    padding-bottom: 30px;
+}
